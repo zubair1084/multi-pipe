@@ -8,9 +8,9 @@ pipeline {
             }
         }
      
-        stage('sprint1') { 
+        stage('sprint') { 
             steps { 
-               sh 'echo "this is sprint1 application..."'
+               sh 'echo "this is sprint application 1..."'
             }
         }
 
